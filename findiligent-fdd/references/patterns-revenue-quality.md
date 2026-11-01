@@ -20,7 +20,7 @@ Each pattern has the same nine fields, so a consuming project can match a signal
 | Equity reading | How an equity investor should read it |
 | Source | Book pages and origin label |
 
-**Grading.** A consuming project grades each hypothesis Supported, Plausible or Unsupported according to the public evidence it found (D08), and archives unresolved ones after two quarters (D30).
+**Grading.** A consuming project grades each hypothesis Supported, Plausible or Unsupported according to the public evidence it found (D08; guidance and estimates alone grade at most Plausible, D37), and archives unresolved ones after two quarters (D30).
 
 **Order of work.** Verify the claim against filings first (D26); test the benign hypothesis before the adverse ones; record what remains unknown.
 
@@ -196,4 +196,4 @@ Each pattern has the same nine fields, so a consuming project can match a signal
 
 - *Financial Due Diligence: Reading Between the Financial Lines*, CA Ayush Bansal, First Edition 2026 (project file): pp.5–6, 9, 25, 43–45, 48–53, 55–58, 60, 65.
 - FinDiligent Repository definition docs (FinDiligent project file; not bundled): Earnings (E2, E6), Working Capital (W3), Debt and Value (V3), Returns and Cash (R2).
-- FinDiligent Engine — Design Decisions (FinDiligent project file; not bundled): D08, D26, D30, D36.
+- FinDiligent Engine — Design Decisions (FinDiligent project file; not bundled): D08, D26, D30, D36, D37.
