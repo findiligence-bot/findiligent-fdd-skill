@@ -14,7 +14,7 @@ The consuming project produces its own output. This skill supplies the reasoning
 1. **Indicative, not foolproof (D36).** Every adjustment, effect and hypothesis here is a starting point to test against evidence, never a definitive figure. Say so when you use one.
 2. **Never estimate a missing amount (D24).** If an adjustment has no evidence for its quantum, show it as **"NQ"** (not quantified) and list the evidence needed. Exception: where one *component* of a metric cannot be separated, still compute the metric without it and label what it excludes, e.g. "gross margin, excluding plant labour (not separable)".
 3. **Label origins.** **[Book]** + page · **[Book, corrected]** (a reconciliation fix) · **[GAAP]** · **[Claude]** (proposed, not from the book). Never attribute an invented rule to the book.
-4. **Always test a benign hypothesis first.** Revenue growth is not automatically good; falling margin is not automatically bad. Grade hypotheses Supported / Plausible / Unsupported on the public evidence actually found (D08).
+4. **Always test a benign hypothesis first.** Revenue growth is not automatically good; falling margin is not automatically bad. Grade hypotheses Supported / Plausible / Unsupported on the public evidence actually found (D08). Supported needs a reported, already-happened figure (a result, or an amount actually spent). Management guidance, targets, plans and analyst estimates are claims about the future: on their own they grade a hypothesis at most Plausible. Evidence that a cost or event exists does not by itself show it is temporary, structural or recoverable (D37).
 5. **Filings beat news (D26–D27).** Verify every claim against the company's own filings and tag it verified, unverified or contradicted. A conflict is itself a finding.
 6. **Never copy external wording (D29).** Paraphrase claims; keep figures and a source link only.
 7. **Related-party advances are not a red flag by default.** Loans, advances and deposits *given* to promoters, group or related parties sit outside net debt (neither cash-like nor debt-like) and are always highlighted separately and stated explicitly (BS12).
@@ -43,7 +43,7 @@ The consuming project produces its own output. This skill supplies the reasoning
 | `references/patterns-cash-conversion.md` | CC01–CC11: receivables, unbilled revenue, inventory, payables stretch, pre-sale WC starvation, capitalised opex, deferred maintenance, revenue-to-cash gap, trapped cash, customer float, capex without returns |
 | `references/patterns-cost-and-margin.md` | CM01–CM12: input-cost spikes, falling employee cost share, pay pockets, statutory compliance gaps (Labour Codes), attrition, wage settlements, key-professional cost, legal spikes, recurring one-offs, promoter costs, marketing cuts, carve-out allocations |
 | `references/patterns-balance-sheet-obligations.md` | BS01–BS12: promoter demand loans, deal-triggered payouts, debt hidden in operating lines, unfunded employee obligations, litigation and tax, overdue statutory dues, leases, purchase commitments, acquisition obligations, covenants and guarantees, hybrid instruments, related-party advances |
-| `references/design-decisions.md` | Why the method is shaped this way (D01–D36), including the consuming-project rules D26–D30 and the clipping-to-entry flow |
+| `references/design-decisions.md` | Why the method is shaped this way (D01–D37), including the consuming-project rules D26–D30 and the clipping-to-entry flow |
 
 Large files: search for the code you need (e.g. `CC04`, `## V6`) rather than reading everything.
 

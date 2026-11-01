@@ -1,8 +1,8 @@
 # FinDiligent Engine — Design Decisions
 
-Version 1.0 · 1 Nov 2026 · Author: CA Ayush Bansal
+Version 1.1 · 1 Nov 2026 · Author: CA Ayush Bansal
 
-Thirty-six decisions settled in the 1 November 2026 scoping session. Each is marked **Author** (the author's choice) or **Default** (set by Claude where the author had no preference). Together with the Phase 2 engine conventions (two of which were later superseded, as marked there) and the four definition docs, this is the base of the methodology specification. 
+Thirty-six decisions settled in the 1 November 2026 scoping session, plus D37 (grading evidence weight), added the same day after the first live clipping reading. Each is marked **Author** (the author's choice) or **Default** (set by Claude where the author had no preference). Together with the Phase 2 engine conventions (two of which were later superseded, as marked there) and the four definition docs, this is the base of the methodology specification. 
 
 ## Purpose and framing
 
@@ -18,6 +18,7 @@ The engine is a hypothesis repository, not a diligence calculator: it turns publ
 | D06 | Pattern origin | Every pattern labelled Book (page), General principle, or Claude-proposed | Default (project instructions) |
 | D07 | Pattern entry fields | Trigger · competing hypotheses (always including a benign one) · financial effects · possible outcomes · evidence, public · evidence, diligence · credit reading · equity reading · source and origin | Author + Default |
 | D08 | Confidence grading | Supported / Plausible / Unsupported, by the weight of public evidence | Default |
+| D37 | Grading evidence weight | Supported needs a reported, already-happened figure (a result, or an amount actually spent). Management guidance, targets, plans and analyst estimates are claims about the future: on their own they grade a hypothesis at most Plausible. Evidence that a cost or event exists does not by itself show it is temporary, structural or recoverable (refines D08) | Author |
 
 ### Delivery and contents
 
@@ -65,7 +66,7 @@ Printed and house-defined EBITDA are both stored, with every adjustment shown be
 3. Check every claim against the company's own filings and tag it verified, unverified or contradicted (D26). Where a filing conflicts, the filing wins and the gap is itself a finding (D27).
 4. Compute the relevant house metrics from the definition files (deterministic, no judgement).
 5. Match the signal to one or more pattern-library triggers.
-6. Grade each competing hypothesis Supported, Plausible or Unsupported on the public evidence (D08), benign hypothesis first.
+6. Grade each competing hypothesis Supported, Plausible or Unsupported on the public evidence (D08), benign hypothesis first. Guidance and estimates alone grade at most Plausible (D37).
 7. List the open questions: the "Evidence — diligence" items public data cannot settle.
 8. Store the result as an entry in that company's hypothesis file (D28); archive it after two quarters if unresolved (D30).
 

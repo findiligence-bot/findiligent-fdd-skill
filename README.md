@@ -18,7 +18,7 @@ findiligent-fdd/
     ├── patterns-cash-conversion.md      CC01–CC11
     ├── patterns-cost-and-margin.md      CM01–CM12
     ├── patterns-balance-sheet-obligations.md  BS01–BS12
-    └── design-decisions.md              D01–D36
+    └── design-decisions.md              D01–D37
 ```
 
 ## Install
@@ -34,5 +34,7 @@ Edit the files on a branch and open a pull request. Keep deterministic definitio
 Sector KPI guides and the adjustment playbook (QoE, net debt, NWC).
 
 ## Version
+
+1.1 — 1 November 2026. Adds D37: guidance and estimates alone grade a hypothesis at most Plausible.
 
 1.0 — 1 November 2026.
