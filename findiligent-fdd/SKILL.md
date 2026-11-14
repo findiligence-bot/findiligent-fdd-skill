@@ -43,20 +43,22 @@ The consuming project produces its own output. This skill supplies the reasoning
 | `references/patterns-cash-conversion.md` | CC01–CC11: receivables, unbilled revenue, inventory, payables stretch, pre-sale WC starvation, capitalised opex, deferred maintenance, revenue-to-cash gap, trapped cash, customer float, capex without returns |
 | `references/patterns-cost-and-margin.md` | CM01–CM12: input-cost spikes, falling employee cost share, pay pockets, statutory compliance gaps (Labour Codes), attrition, wage settlements, key-professional cost, legal spikes, recurring one-offs, promoter costs, marketing cuts, carve-out allocations |
 | `references/patterns-balance-sheet-obligations.md` | BS01–BS12: promoter demand loans, deal-triggered payouts, debt hidden in operating lines, unfunded employee obligations, litigation and tax, overdue statutory dues, leases, purchase commitments, acquisition obligations, covenants and guarantees, hybrid instruments, related-party advances |
-| `references/design-decisions.md` | Why the method is shaped this way (D01–D37), including the consuming-project rules D26–D30 and the clipping-to-entry flow |
+| `references/design-decisions.md` | Why the method is shaped this way (D01–D44), including the consuming-project rules D26–D30, D42–D44 and the clipping-to-entry flow |
+| `references/consuming-project-carousel.md` | Building a published company carousel or research post: presentation rules (one EBITDA, "~" for indicative figures, accounting check before findings, cover hook, documents-only sources), the twelve-slide template, workflow and pre-publication checks (D38–D44) |
 
 Large files: search for the code you need (e.g. `CC04`, `## V6`) rather than reading everything.
 
 ## Quick reference (full definitions in the files)
 
-- **House EBITDA (post-116)** = PBT before exceptional items + finance costs + D&A − other income + unrealised FX loss on borrowings + ESOP cost.
+- **House EBITDA (post-116)** = PBT before exceptional items + finance costs + D&A − other income + unrealised FX loss on borrowings + ESOP cost. Liability no longer written back stays inside EBITDA as other operating income (D38). Outputs show this one EBITDA only (D42).
 - **House EBITDA (pre-116, default for leverage and valuation)** = post-116 house EBITDA − cash lease payments (principal + interest, from the cash flow statement). If not disclosed: pre-116 is NQ; use post-116 EBITDA with disclosed lease liabilities in net debt, labelled "lease payments not disclosed".
 - **Pairing rule:** pre-116 EBITDA ↔ net debt excluding leases; post-116 EBITDA ↔ net debt including leases. Mixing them is invalid.
 - **Sector gross margin** = revenue − material cost − sector direct costs (healthcare: doctor cost; consumer and retail/QSR: packaging; manufacturing: power and fuel, job-work, direct plant labour, freight inward; services, IT, education: employee cost).
 - **Revenue adjustments never pass to EBITDA in full by default:** adjust the attached variable costs too (E6).
 - **Earnings bridge layers:** 0 house · 1b management adjustments (tested) · 2 Ind AS corrections · 3 normalisations · 4 executed pro-forma · 5 prospective pro-forma. A "one-off" recurring in two of three years goes back into the base.
 - **WC days** use revenue as the single denominator; normal level = September balance ÷ H1 revenue × 183; flag a gap above 15 days between H1 and FY readings.
-- **Net debt** = financial debt (promoter debt on its own line) + debt-like items − free cash-like items. Contingent liabilities are listed, not included.
+- **Net debt** = financial debt (promoter debt on its own line) + debt-like items − free cash-like items. Contingent liabilities are listed, not included. Stretched payables = payables past their due date (D39); liens of undisclosed purpose are cash in published outputs, footnoted (D40).
+- **Before calling something a finding,** check it against Ind AS: compliant capitalisation is not a finding; CWIP and development ageing are not commented on (D41). Write indicative figures and general days statements with "~" (D43).
 - **DSCR (Indian bank convention)** = (PAT + depreciation + interest on term debt) ÷ (interest on term debt + principal due within 12 months). Principal from the maturity note, else current maturities (labelled); if neither, do not compute or show DSCR.
 - **Cash conversion** = operating cash flow ÷ house EBITDA, same lease basis.
 

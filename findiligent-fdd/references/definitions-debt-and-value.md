@@ -1,6 +1,6 @@
 # FinDiligent Repository — Debt and Value Definitions
 
-Version 1.0 · 1 Nov 2026 · Author: CA Ayush Bansal
+Version 1.2 · 14 Nov 2026 · Author: CA Ayush Bansal
 
 The vocabulary for net debt, debt-like items and the bridge from enterprise value to equity value. It follows the conventions of the Earnings and Working Capital definitions (units, periods, origin labels, indicative-not-foolproof). INR million throughout.
 
@@ -35,6 +35,7 @@ Only cash that is freely available to the business reduces net debt. Restricted 
 | Liquid and debt mutual funds (current investments) | Cash-like | author decision |
 | Listed equity and other investments | Excluded from net debt; in the market EV bridge as investments (V5) | author decision |
 | Lien-marked deposits and margin money for guarantees or letters of credit | Excluded (restricted) | [Book] pp.22, 79 |
+| Deposits lien-marked against both guarantees and borrowings, split not disclosed; deposits with lenders | Published outputs: cash-like, with a small-font footnote; the strict (excluded) figure stays in the workings | author decision D40 |
 | Debt service reserve (DSRA) or other cash pledged to a borrowing already in net debt | Kept in cash: excluding it while counting the debt penalises twice | [Book] p.71 |
 | Loans, advances and deposits given to promoters, group companies or related parties | Outside net debt (neither cash-like nor debt-like); highlighted separately as a related-party exposure and stated explicitly | [Book] p.71 |
 | Overseas cash subject to capital or dividend restrictions | Excluded where it cannot be upstreamed; flagged | [Book] p.71 |
@@ -56,7 +57,7 @@ A debt-like item is an obligation, not presented as borrowing, that will be sett
 | Capital creditors | Payables for capex | p.79 |
 | Redeemable preference shares | Principal plus accrued unpaid dividend | pp.79, 83 |
 | Deferred maintenance capex | One-time backlog only; recurring maintenance capex belongs in valuation, not here | pp.13, 79 (Phase 2 area 4) |
-| Stretched payables | Excess over normal contractual terms | p.80 |
+| Stretched payables | Excess over normal contractual terms; measured as trade payables past their due date in the payables-ageing note, plus unpaid MSME interest (D39) | p.80 |
 | Net current tax | Provision for tax less advance tax | p.80 |
 | Reverse factoring / supplier finance | Facility balance | pp.67–68 |
 | Transaction-related costs | Unpaid deal fees; usually "NQ" at diligence stage | p.80 |
