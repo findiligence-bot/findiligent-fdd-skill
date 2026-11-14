@@ -1,6 +1,6 @@
 # FinDiligent Repository — Earnings Definitions
 
-Version 1.0 · 1 Nov 2026 · Author: CA Ayush Bansal
+Version 1.2 · 14 Nov 2026 · Author: CA Ayush Bansal
 
 The earnings vocabulary every pattern and consuming project uses: one definition per term, with formula, inputs, book reference and a worked example from the book's own figures. It applies the Phase 2 corrections and the house decisions D16–D25 and D36. INR million throughout.
 
@@ -86,7 +86,7 @@ Four EBITDA figures are stored side by side, never merged; the pre-Ind AS 116 ho
 \text{House EBITDA}_{pre116} = \text{House EBITDA}_{post116} - (\text{principal} + \text{interest paid on lease liabilities})
 ```
 
-**House exclusions (D17).** Other income; unrealised forex on borrowings ([Book] p.38), where it sits in other expenses; ESOP cost, shown as a separate line; exceptional items as the company labels them, sitting below the starting line by construction. **Safeguard:** if the same exceptional category appears in two of three years, it is flagged as recurring and shown as a candidate to bring back into EBITDA ([Book] p.37 logic on recurring fines and write-downs).
+**House exclusions (D17).** Other income; unrealised forex on borrowings ([Book] p.38), where it sits in other expenses; ESOP cost, shown as a separate line; exceptional items as the company labels them, sitting below the starting line by construction. Provision or liability no longer required written back is **not** excluded: it is other operating income and stays inside house EBITDA even where the company reports it in other income (D38). **Safeguard:** if the same exceptional category appears in two of three years, it is flagged as recurring and shown as a candidate to bring back into EBITDA ([Book] p.37 logic on recurring fines and write-downs).
 
 **Worked example (book p.19):** PBT 44 / 57 / 26 + finance costs 5 / 8 / 9 + D&A 6 / 9 / 9 − other income 5 / 9 / 10 = house EBITDA 50 / 65 / 34, matching the book's EBITDA (no ESOP, FX or exceptional items in the example). Margin 7.1% / 7.5% / 3.4%.
 

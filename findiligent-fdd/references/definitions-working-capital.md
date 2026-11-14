@@ -1,6 +1,6 @@
 # FinDiligent Repository — Working Capital Definitions
 
-Version 1.0 · 1 Nov 2026 · Author: CA Ayush Bansal
+Version 1.2 · 14 Nov 2026 · Author: CA Ayush Bansal
 
 The working-capital vocabulary for every pattern and consuming project. It follows the conventions of the Earnings Definitions doc (units, periods, origin labels, indicative-not-foolproof) and the author's decisions of 1 November 2026. INR million throughout.
 
@@ -40,7 +40,7 @@ All three days metrics use revenue from operations as the single denominator, as
 
 where R is revenue for the period and d is the days in that period (365 for a year, 183 for April–September).
 
-**Which balance.** Where quarterly or monthly balances exist, use the average of the period-end balances across the last 12 months (opening plus each quarter-end); this removes seasonal and year-end distortion. Otherwise use the closing balance (book method). The basis used is always stated.
+**Which balance.** Where quarterly or monthly balances exist, use the average of the period-end balances across the last 12 months (opening plus each quarter-end); this removes seasonal and year-end distortion. Otherwise use the closing balance (book method). The basis used is always stated. In prose, days are indicative and written with "~" ("dealers pay in ~2 days"); tables keep the computed figure (D43).
 
 **Worked example (book p.21, closing balances):**
 

@@ -18,7 +18,8 @@ findiligent-fdd/
     ├── patterns-cash-conversion.md      CC01–CC11
     ├── patterns-cost-and-margin.md      CM01–CM12
     ├── patterns-balance-sheet-obligations.md  BS01–BS12
-    └── design-decisions.md              D01–D37
+    ├── design-decisions.md              D01–D44
+    └── consuming-project-carousel.md    C1–C4: company carousel rules, template, checks
 ```
 
 ## Install
@@ -34,6 +35,8 @@ Edit the files on a branch and open a pull request. Keep deterministic definitio
 Sector KPI guides and the adjustment playbook (QoE, net debt, NWC).
 
 ## Version
+
+1.2 — 14 November 2026. Adds D38–D44 from the Ather Energy carousel review (written-back income inside EBITDA, stretched payables measured, liens of undisclosed purpose, accounting check before findings, one EBITDA in outputs, "~" for indicative figures) and the consuming-project carousel guide.
 
 1.1 — 1 November 2026. Adds D37: guidance and estimates alone grade a hypothesis at most Plausible.
 

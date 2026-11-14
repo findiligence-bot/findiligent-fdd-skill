@@ -1,8 +1,8 @@
 # FinDiligent Engine — Design Decisions
 
-Version 1.1 · 1 Nov 2026 · Author: CA Ayush Bansal
+Version 1.2 · 14 Nov 2026 · Author: CA Ayush Bansal
 
-Thirty-six decisions settled in the 1 November 2026 scoping session, plus D37 (grading evidence weight), added the same day after the first live clipping reading. Each is marked **Author** (the author's choice) or **Default** (set by Claude where the author had no preference). Together with the Phase 2 engine conventions (two of which were later superseded, as marked there) and the four definition docs, this is the base of the methodology specification. 
+Thirty-six decisions settled in the 1 November 2026 scoping session, plus D37 (grading evidence weight), added the same day after the first live clipping reading, and D38–D44, settled in the author's review of the Ather Energy Q2 FY27 carousel (12–14 November 2026). Each is marked **Author** (the author's choice) or **Default** (set by Claude where the author had no preference). Together with the Phase 2 engine conventions (two of which were later superseded, as marked there) and the four definition docs, this is the base of the methodology specification. 
 
 ## Purpose and framing
 
@@ -58,6 +58,10 @@ Printed and house-defined EBITDA are both stored, with every adjustment shown be
 | D23 | Materiality | Flag at 1% of EBITDA or a fixed rupee floor, whichever is lower | Default |
 | D24 | Missing evidence | "NQ" with the evidence needed listed; no estimated figure | Default (book convention) |
 | D25 | Scenarios | Base, upside, downside built by flexing named drivers from history (volume, price, margin, WC days) | Default |
+| D38 | Liability written back | Provision or liability no longer required written back is other operating income: it stays inside house EBITDA (in the material-margin line) even where the company reports it in other income (refines D17) | Author |
+| D39 | Stretched payables measured | The debt-like "stretched payables" (V3) are trade payables past their due date in the payables-ageing note, with unpaid MSME interest; they leave NWC (single home, W1) | Author |
+| D40 | Liens of undisclosed purpose | Where deposits are lien-marked against both guarantees and borrowings and the split is not disclosed, published outputs treat them, and deposits with lenders, as cash with a small-font footnote; the strict V2 figure is kept in the workings. A deposit held against a specific liability brings that liability in as debt-like (refines V2) | Author |
+| D41 | Accounting check before findings | A treatment in line with Ind AS (for example directly attributable development or plant costs capitalised under Ind AS 38, 16, 23) is not a finding and gets no "if expensed" sensitivity; ageing of CWIP or intangibles under development is not commented on | Author |
 
 ## How a clipping becomes an insight
 
@@ -86,6 +90,9 @@ These rules no longer govern this project; they travel inside the skill as instr
 | D31 | Delivery format | None. Superseded: the repository produces no dashboard or report; consuming projects build their own outputs from it | Author |
 | D32 | Review gate | Nothing is published from this project. Claude-proposed patterns stay in draft until the author approves them; book-sourced patterns are usable once written, labelled by origin (O8) | Author |
 | D33 | Specification home | Specification drafted in this Project; delivered as a skill with a GitHub master copy (D34) | Default |
+| D42 | One EBITDA in outputs | Published outputs show house EBITDA, excluding other income, once; no "including other income" figure or footnote variant | Author |
+| D43 | Indicative figures | "~" marks every indicative figure, and every general statement of DSO, DPO or DIO days; exact filed figures stay exact | Author |
+| D44 | Company carousel | Consuming projects building a company carousel follow `consuming-project-carousel.md`: twelve-slide template, cover hook not built on other income with commentary stopping at EBITDA, the business explained from zero (who pays whom, unit economics), Insight call-outs, plain language, sources naming documents only, a per-slide backup | Author |
 
 ## Open items
 
