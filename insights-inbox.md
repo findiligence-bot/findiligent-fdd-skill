@@ -14,6 +14,8 @@ Each weekly run (Saturday evening IST) does the following:
 
 <!-- Format: - YYYY-MM-DD — insight (source, if any) -->
 
+- 2026-11-18 — "Money that arrives only because something else is falling can leave just as quickly" (source: author, to confirm). Proposed route: Analyst Lens AL01, with a link to the cash conversion patterns. Proposed reading: cash released by shrinkage (receivables or inventory falling with sales, lower capex, asset sales, cuts in spend) is not cash earned. It reverses when the business grows again, so test whether an operating cash inflow comes from earnings or from contraction.
+
 ## Processed
 
 | Week | Insight (short) | Went to | PR |
