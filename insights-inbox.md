@@ -2,6 +2,10 @@
 
 Holding area for lines and insights the author shares during the week. Nothing here is part of the skill yet.
 
+**Chat convention:** a message the author wraps in inverted commas ("...") is an insight to log. Claude replies with one word ("Noted"), runs no commands and adds no analysis. A message without inverted commas is a normal request that Claude acts on.
+
+**Daily save (about 9:43 pm IST):** every quoted insight shared since the last save is added to "Pending" below, then committed and pushed in one go.
+
 Each weekly run (Saturday evening IST) does the following:
 
 1. Paraphrases each insight. External wording is never copied (D29).
