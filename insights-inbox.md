@@ -18,11 +18,10 @@ Each weekly run (Saturday evening IST) does the following:
 
 <!-- Format: - YYYY-MM-DD — insight (source, if any) -->
 
-- 2026-11-18 — "Money that arrives only because something else is falling can leave just as quickly" (source: author, to confirm). Proposed route: Analyst Lens AL01, with a link to the cash conversion patterns. Proposed reading: cash released by shrinkage (receivables or inventory falling with sales, lower capex, asset sales, cuts in spend) is not cash earned. It reverses when the business grows again, so test whether an operating cash inflow comes from earnings or from contraction.
-- 2026-11-19 — "Job as investors is to ask whether the cash flows and balance sheet of the business have changed. If they have not, the volatility tends to pass. if they have, one must act, whatever the size of the company" (source: author, to confirm). Proposed route: Analyst Lens AL02. Proposed reading: separate price or news noise from a change in fundamentals. When a stock or result moves, test whether cash generation or the balance sheet (leverage, liquidity, obligations) has actually shifted. If not, treat it as noise. If so, act, and do not excuse it because the company is large.
-- 2026-11-19 — "Hotel Industries - Q2FY27 was the industry best quarter in last 10 quarters in terms of revenue earned per available room (RevPAR), a key measure of hotel performance. growth came equally from more rooms being occupied and higher room rates. Key drivers includes, domestic travel, helped offset some weakness from International travellers not coming in. HIgher airfares, geoplitical tension has affected airline capacity and travel plans on certain international routes. But domestic travllers have continued to take holidays, while companies and event organizer have kept demand for hotel rooms and banquet facilities going. " (source: to confirm). Proposed route: new sector KPI guide for hotels (README lists sector KPI guides as planned), stored as dated sector context rather than a rule. Proposed reading: break RevPAR into occupancy and ARR (average room rate); growth from both is higher quality than growth from rate alone. Split the demand mix (domestic leisure, corporate, MICE and banquets, foreign tourists), since airline capacity and geopolitics hit foreign arrivals. Also check revenue outside rooms (F&B, banquets).
-
 ## Processed
 
 | Week | Insight (short) | Went to | PR |
 | --- | --- | --- | --- |
+| 21 Nov 2026 | Cash from contraction is not cash earned | analyst-lenses.md AL01 | v1.3 |
+| 21 Nov 2026 | Volatility vs change in cash flows or balance sheet | analyst-lenses.md AL02 | v1.3 |
+| 21 Nov 2026 | Hotels Q2 FY27: best RevPAR in ten quarters, domestic demand | sector-hotels.md H1–H3 | v1.3 |

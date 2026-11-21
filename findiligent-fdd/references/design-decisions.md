@@ -1,8 +1,8 @@
 # FinDiligent Engine — Design Decisions
 
-Version 1.2 · 14 Nov 2026 · Author: CA Ayush Bansal
+Version 1.3 · 21 Nov 2026 · Author: CA Ayush Bansal
 
-Thirty-six decisions settled in the 1 November 2026 scoping session, plus D37 (grading evidence weight), added the same day after the first live clipping reading, and D38–D44, settled in the author's review of the Ather Energy Q2 FY27 carousel (12–14 November 2026). Each is marked **Author** (the author's choice) or **Default** (set by Claude where the author had no preference). Together with the Phase 2 engine conventions (two of which were later superseded, as marked there) and the four definition docs, this is the base of the methodology specification. 
+Thirty-six decisions settled in the 1 November 2026 scoping session, plus D37 (grading evidence weight), added the same day after the first live clipping reading, and D38–D44, settled in the author's review of the Ather Energy Q2 FY27 carousel (12–14 November 2026), and D45–D46, added with the first weekly insights intake (21 November 2026). Each is marked **Author** (the author's choice) or **Default** (set by Claude where the author had no preference). Together with the Phase 2 engine conventions (two of which were later superseded, as marked there) and the four definition docs, this is the base of the methodology specification. 
 
 ## Purpose and framing
 
@@ -27,6 +27,8 @@ The engine is a hypothesis repository, not a diligence calculator: it turns publ
 | D34 | Delivery | A Claude skill, loaded automatically by any project or chat facing a financial question, with a GitHub repository as the versioned master copy. Created on the author's instruction | Author |
 | D35 | Contents | Pattern library (signal → hypotheses → effects → outcomes → checks) · definitions and formulas · adjustment playbook (QoE, net debt, NWC) · sector KPI guides | Author |
 | D36 | Status of adjustments | Every adjustment is labelled indicative, not foolproof: a starting hypothesis that the consuming project must test against evidence, never a definitive figure | Author |
+| D45 | Author insights | The author adds insights during the week through `insights-inbox.md` (quoted lines in chat, saved daily). Each week Claude paraphrases them and routes them to a definition, pattern, sector or analyst-lens file, or to this log, in a pull request. The author's lesson is labelled [Author] and usable once merged; tests Claude writes to apply it stay [Claude, draft] (D32) | Author (intake) + Default (labels) |
+| D46 | Sector guides and context notes | Each sector guide holds KPI definitions, a reading method and dated industry context notes. Context notes are unverified claims, paraphrased (D29); they are benchmarks to compare a company against, never evidence about it, and are verified against filings (D26) and archived after two quarters (D30) | Default |
 
 ## Inputs and scope
 

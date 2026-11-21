@@ -13,7 +13,7 @@ The consuming project produces its own output. This skill supplies the reasoning
 
 1. **Indicative, not foolproof (D36).** Every adjustment, effect and hypothesis here is a starting point to test against evidence, never a definitive figure. Say so when you use one.
 2. **Never estimate a missing amount (D24).** If an adjustment has no evidence for its quantum, show it as **"NQ"** (not quantified) and list the evidence needed. Exception: where one *component* of a metric cannot be separated, still compute the metric without it and label what it excludes, e.g. "gross margin, excluding plant labour (not separable)".
-3. **Label origins.** **[Book]** + page · **[Book, corrected]** (a reconciliation fix) · **[GAAP]** · **[Claude]** (proposed, not from the book). Never attribute an invented rule to the book.
+3. **Label origins.** **[Book]** + page · **[Book, corrected]** (a reconciliation fix) · **[GAAP]** · **[Author]** (an insight the author added through the insights inbox, D45) · **[Claude]** (proposed, not from the book). Never attribute an invented rule to the book.
 4. **Always test a benign hypothesis first.** Revenue growth is not automatically good; falling margin is not automatically bad. Grade hypotheses Supported / Plausible / Unsupported on the public evidence actually found (D08). Supported needs a reported, already-happened figure (a result, or an amount actually spent). Management guidance, targets, plans and analyst estimates are claims about the future: on their own they grade a hypothesis at most Plausible. Evidence that a cost or event exists does not by itself show it is temporary, structural or recoverable (D37).
 5. **Filings beat news (D26–D27).** Verify every claim against the company's own filings and tag it verified, unverified or contradicted. A conflict is itself a finding.
 6. **Never copy external wording (D29).** Paraphrase claims; keep figures and a source link only.
@@ -29,7 +29,8 @@ The consuming project produces its own output. This skill supplies the reasoning
 4. For each matched pattern, work the competing hypotheses, benign one first, and grade them.
 5. Translate the adverse hypotheses into financial effects using the house vocabulary (earnings-bridge layer, debt-like item, NWC, lease basis).
 6. Give the credit reading and/or equity reading as the task requires.
-7. List open questions: the "Evidence — diligence" items that public data cannot settle. Never assume their answers.
+7. Run the analyst lenses (`references/analyst-lenses.md`, AL01 onward) over the conclusion. Say which lenses changed the reading.
+8. List open questions: the "Evidence — diligence" items that public data cannot settle. Never assume their answers.
 
 ## Reference files — read the one you need
 
@@ -43,7 +44,9 @@ The consuming project produces its own output. This skill supplies the reasoning
 | `references/patterns-cash-conversion.md` | CC01–CC11: receivables, unbilled revenue, inventory, payables stretch, pre-sale WC starvation, capitalised opex, deferred maintenance, revenue-to-cash gap, trapped cash, customer float, capex without returns |
 | `references/patterns-cost-and-margin.md` | CM01–CM12: input-cost spikes, falling employee cost share, pay pockets, statutory compliance gaps (Labour Codes), attrition, wage settlements, key-professional cost, legal spikes, recurring one-offs, promoter costs, marketing cuts, carve-out allocations |
 | `references/patterns-balance-sheet-obligations.md` | BS01–BS12: promoter demand loans, deal-triggered payouts, debt hidden in operating lines, unfunded employee obligations, litigation and tax, overdue statutory dues, leases, purchase commitments, acquisition obligations, covenants and guarantees, hybrid instruments, related-party advances |
-| `references/design-decisions.md` | Why the method is shaped this way (D01–D44), including the consuming-project rules D26–D30, D42–D44 and the clipping-to-entry flow |
+| `references/analyst-lenses.md` | General lessons applied to every analysis: AL01 cash from contraction is not cash earned; AL02 volatility versus a change in cash flows or balance sheet |
+| `references/sector-hotels.md` | Hotel KPIs (occupancy, ARR, RevPAR, non-room revenue), how to read a RevPAR move, and dated, unverified industry context notes (Q2 FY27) |
+| `references/design-decisions.md` | Why the method is shaped this way (D01–D46), including the consuming-project rules D26–D30, D42–D44 and the clipping-to-entry flow |
 | `references/consuming-project-carousel.md` | Building a published company carousel or research post: presentation rules (one EBITDA, "~" for indicative figures, accounting check before findings, cover hook, documents-only sources), the twelve-slide template, workflow and pre-publication checks (D38–D44) |
 
 Large files: search for the code you need (e.g. `CC04`, `## V6`) rather than reading everything.
