@@ -18,7 +18,9 @@ findiligent-fdd/
     ├── patterns-cash-conversion.md      CC01–CC11
     ├── patterns-cost-and-margin.md      CM01–CM12
     ├── patterns-balance-sheet-obligations.md  BS01–BS12
-    ├── design-decisions.md              D01–D44
+    ├── analyst-lenses.md                AL01–AL02: general lessons for every analysis
+    ├── sector-hotels.md                 H1–H3: hotel KPIs, RevPAR reading, Q2 FY27 context
+    ├── design-decisions.md              D01–D46
     └── consuming-project-carousel.md    C1–C4: company carousel rules, template, checks
 ```
 
@@ -32,9 +34,11 @@ Edit the files on a branch and open a pull request. Keep deterministic definitio
 
 ## Planned
 
-Sector KPI guides and the adjustment playbook (QoE, net debt, NWC).
+More sector KPI guides and the adjustment playbook (QoE, net debt, NWC).
 
 ## Version
+
+1.3 — 21 November 2026. First weekly insights intake: analyst lenses AL01–AL02, the hotel sector guide, the [Author] origin label and D45–D46. New insights are logged in `insights-inbox.md` and added weekly.
 
 1.2 — 14 November 2026. Adds D38–D44 from the Ather Energy carousel review (written-back income inside EBITDA, stretched payables measured, liens of undisclosed purpose, accounting check before findings, one EBITDA in outputs, "~" for indicative figures) and the consuming-project carousel guide.
 
